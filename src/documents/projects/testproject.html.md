@@ -1,9 +1,12 @@
 ---
 title: test
-imgRatio: portrait # portrait | landscape | square
-imgLarge: test.jpg
-imgDetail1: detail.jpg
-imgDetail2: detail2.jpg
+layout: project
+url: /projects/test.html
+imgRatio: landscape # portrait | landscape | square
+imgThumb: testThumb.jpg
+imgLarge: testWide.jpg
+imgDetail1: testThumb.jpg
+imgDetail2: testDetail1.jpg
 youtubeUrl: http://youtube.com/
 redbubbleUrl: http://redbubble.com
 society6Url: http://society6.com

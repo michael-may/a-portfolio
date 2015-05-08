@@ -1,11 +1,78 @@
-Here is some **data**
-*this is italic*
 
-This is a list:
+<!doctype html>
+<html>
+	<head>
+		<title>Alyssa May Illustration</title>
+		<link rel="stylesheet" type="text/css" href="/styles/global.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav id="main-nav" class="project">
+			<ul>
+				<li>
+					some button
+				</li>
+			</ul>
+			<div id="logo">
+				<img src="/img/SignatureVector.svg">
+			</div>
+			<div id="logo-bg">
+				<img src="/img/logo_bg2x.png">
+			</div>
+		</nav>
+		<div id="main" class="project">
+			<section id="images">
+				
+				
+					<div id="img-main" class="img">
+						<img src="/img/projects/testWide.jpg">
+					</div>
+				
+				<div id="img-sub1" class="img-sub">
+					<img src="/img/projects/testThumb.jpg">
+				</div>
+				<div id="img-sub2" class="img-sub">
+					<img src="/img/projects/testDetail1.jpg">
+				</div>
+			</section>
+			<div class="clearfix"></div>
+			<section id="content" class="floating-section">
+				<div class="content-left">
+					<p>Here is some <strong>data</strong>
+<em>this is italic</em></p>
 
-1. something
-1. something else
+<p>This is a list:</p>
 
-[This is a link](http://www.darkcoding.net)
+<ol><li>something</li><li>something else</li></ol>
 
-#header#
+<p><a href="http://www.darkcoding.net">This is a link</a></p>
+
+<h1>header</h1>
+				</div>
+				<div class="content-right">
+					something
+				</div>
+			</section>
+			<section id="about" class="floating-section">
+	<div class="about-inner">
+		<div class="about-inner-left">
+			something
+		</div>
+		<div class="about-inner-right">
+			something-else
+		</div>
+	</div>
+</section>
+			<section id="social" class="floating-section">
+	social
+</section>
+			<footer>
+	footer
+</footer>
+		</div>
+		<!--Workaround for webkit bug-->
+		<div id="background">
+			<img src="/img/main_bg.jpg">
+		</div>
+	</body>
+</html>

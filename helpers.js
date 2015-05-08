@@ -7,13 +7,43 @@ module.exports = {
 	sayHello : function() {
 		return "hello";
 	},
+	compare : function(lvalue, rvalue, options) {
+		if (arguments.length < 3) {
+			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+		}
+
+		var operator = options.hash.operator || "==";
+
+		var operators = {
+			'==': function(l,r) { return l == r; },
+			'===': function(l,r) { return l === r; },
+			'!=': function(l,r) { return l != r; },
+			'<': function(l,r) { return l < r; },
+			'>': function(l,r) { return l > r; },
+			'<=': function(l,r) { return l <= r; },
+			'>=': function(l,r) { return l >= r; },
+			'typeof': function(l,r) { return typeof l == r; }
+		}
+
+		if (!operators[operator]) {
+			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
+		}
+
+		var result = operators[operator](lvalue,rvalue);
+
+		if( result ) {
+			return options.fn(this);
+		} else {
+			return options.inverse(this);
+		}
+	},
 	each : function(arr, options) {
 		var self = this,
 			out = '';
 
 	},
 	eachCollection : function(type, options) {
-		var docs = this.getCollection(type),
+		var docs = this.getCollection(type).findAllLive({ relativeOutDirPath : 'projects' }, [{ position : 1}]),
 			self = this,
 			out = '';
 
@@ -22,6 +52,9 @@ module.exports = {
 		});
 
 		return out;
+	},
+	withDocpad : function(obj, options) {
+		return options.fn(_.extend({}, this, obj));
 	},
 	md2html : function(text, options) {
 		if(!text) {

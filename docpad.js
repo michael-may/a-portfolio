@@ -3,7 +3,8 @@
 
 var helpers = require('./helpers.js'),
 	fs = require('fs'),
-	docpad = require('docpad');
+	docpad = require('docpad'),
+	glob = require('glob');
 
 // Define the DocPad Configuration
 module.exports = {
@@ -11,7 +12,8 @@ module.exports = {
 
 	plugins : {
 		handlebars : {
-			helpers : helpers
+			helpers : helpers,
+			partials: findPartials()
 		},
 		less : {
 			compress : true
@@ -24,6 +26,22 @@ module.exports = {
 			.findAllLive({
 				relativeDirPath : 'projects'
 			})
+		},
+		blocks : function() {
+			return this.getCollection('documents')
+			.findAllLive({
+				relativeDirPath : 'blocks'
+			})
 		}
 	}
 };
+
+function findPartials() {
+    var files = glob.sync("./src/partials/**/*.hbs"), partials = {};
+    files.forEach(function(filename) {
+        var name = filename.replace(/^\.\/src\/partials\//, '');
+        name = name.replace(/\.hbs$/, '');
+        partials[name] = fs.readFileSync(filename, {encoding: 'utf8'});
+    });
+    return partials;
+}

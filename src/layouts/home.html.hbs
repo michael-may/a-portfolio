@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Alyssa May Illustration</title>
+		<link rel="stylesheet" type="text/css" href="/styles/global.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header id="header">
+			<img src="img/top_bg.jpg" class="bg">
+			<div id="logo">
+				<img src="/img/SignatureVector.svg">
+			</div>
+			<div id="logo-bg" class="hidden">
+				<img src="/img/logo_bg2x.png">
+			</div>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li>
+					some button
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<section id="projects">
+				<div class="spacer">
+					<img src="/img/main_bg.jpg">
+				</div>
+				{{#eachCollection 'projects'}}
+					<a href="{{url}}">
+						<article class="project">
+							<img src="/img/projects/{{imgThumb}}">
+							<div class="overlay">
+								<div class="overlay-inner">
+									<div class="caption">
+										{{title}}
+									</div>
+								</div>
+							</div>
+						</article>
+					</a>
+				{{/eachCollection}}
+			</section>
+			{{> about}}
+			{{> social}}
+			{{> footer}}
+		</div>
+		<!--Workaround for webkit bug-->
+		<div id="background">
+			<img src="/img/main_bg.jpg">
+		</div>
+		<script src="/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="/js/app.js"></script>
+	</body>
+</html>
