@@ -27,10 +27,10 @@ module.exports = {
 				relativeDirPath : 'projects'
 			})
 		},
-		blocks : function() {
+		socialPosts : function() {
 			return this.getCollection('documents')
 			.findAllLive({
-				relativeDirPath : 'blocks'
+				relativeDirPath : 'socialPosts'
 			})
 		}
 	}

@@ -1,4 +1,9 @@
+var isSmall;
+
 $(window).load(function() {
+	if($(window).width() <= 580) {
+		isSmall = true;
+	}
 	var collapsingHeader = new CollapsingHeader($('#header'), {
 		nav : $('#main-nav'),
 		body : $('#main'),
@@ -124,6 +129,9 @@ var CollapsingHeader = function(el, opts) {
 			var aspect = $('#logo img').width() / $('#logo img').height();
 			var imgHeight = (el.height() * .6) / aspect;
 			var height = (imgHeight - ((imgHeight * getScrollPercent(pagePos)) - 145));
+			if(isSmall) {
+				height = (imgHeight - ((imgHeight * getScrollPercent(pagePos)) - 75));
+			}
 			//var centerPos = ((el.height() / 2) - (height / 2) / el.height()) / 2;
 			var centerPos = (el.height() / 2) - (height / 2);
 
@@ -160,11 +168,21 @@ var CollapsingHeader = function(el, opts) {
 			});
 			//console.log($('#logo').width(), $('#logo img').width());
 		} else {
-			$('#logo img').css({
-				height : '145px',
-				'margin-top' : 0,
-				'margin-left' : 'auto'
-			});
+			if(isSmall) {
+				$('#logo img').css({
+					height : '75px',
+					'margin-top' : 0,
+					'margin-left' : 'auto'
+				});
+			} else {
+				$('#logo img').css({
+					height : '145px',
+					'margin-top' : 0,
+					'margin-left' : 'auto'
+				});
+			}
+			
+
 			$('#logo').css({
 				'-webkit-transform' : 'translate3d(0, 0, 0)',
 				'-moz-transform' : 'translate3d(0, 0, 0)',
@@ -175,26 +193,6 @@ var CollapsingHeader = function(el, opts) {
 				top : 0
 			})
 		}
-		
-
-		/*
-
-		80px
-
-		from 45% of header to 55px
-		300px to 55px
-
-		300 - (% to 300 - 55)
-
-		1 * 80 = 80;
-		0 * 160 = 0;
-
-		from - (to * %)
-
-		80 + (0 + 160)
-
-		100% = 80
-		0% = 160*/
 	};
 
 	/* TODO

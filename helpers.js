@@ -4,9 +4,6 @@ var fs = require('fs'),
 	md = require('markdown').markdown;
 
 module.exports = {
-	sayHello : function() {
-		return "hello";
-	},
 	compare : function(lvalue, rvalue, options) {
 		if (arguments.length < 3) {
 			throw new Error("Handlerbars Helper 'compare' needs 2 parameters");
@@ -43,7 +40,7 @@ module.exports = {
 
 	},
 	eachCollection : function(type, options) {
-		var docs = this.getCollection(type).findAllLive({ relativeOutDirPath : 'projects' }, [{ position : 1}]),
+		var docs = this.getCollection(type).findAllLive({ relativeOutDirPath : type }, [{ position : 1}]),
 			self = this,
 			out = '';
 
@@ -55,6 +52,9 @@ module.exports = {
 	},
 	withDocpad : function(obj, options) {
 		return options.fn(_.extend({}, this, obj));
+	},
+	currentYear : function() {
+		return new Date().getFullYear();	
 	},
 	md2html : function(text, options) {
 		if(!text) {

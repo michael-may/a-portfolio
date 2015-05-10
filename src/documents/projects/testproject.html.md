@@ -3,11 +3,13 @@ title: test
 layout: project
 url: /projects/test.html
 imgRatio: landscape # portrait | landscape | square
-imgThumb: testThumb.jpg
-imgLarge: testWide.jpg
-imgDetail1: testThumb.jpg
-imgDetail2: testDetail1.jpg
+imgThumb: test/testThumb.jpg
+imgLarge: test/testWide.jpg
+imgDetail1: test/testThumb.jpg
+imgDetail2: test/testDetail1.jpg
+youtubeThumb: test/youtubeThumb.jpg
 youtubeUrl: http://youtube.com/
+prints: true
 redbubbleUrl: http://redbubble.com
 society6Url: http://society6.com
 cratedUrl: http://crated.com
