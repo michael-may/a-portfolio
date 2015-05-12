@@ -1,25 +1,24 @@
 ---
-title: test5
-imgRatio: portrait # portrait | landscape | square
-imgThumb: testThumb.jpg
-imgLarge: test.jpg
-imgDetail1: detail.jpg
-imgDetail2: detail2.jpg
-youtubeUrl: http://youtube.com/
+title: Adora Portrait
+layout: project
+url: /projects/AdoraPortrait
+imgRatio: landscape # portrait | landscape | square
+imgThumb: Adora/Thumb.jpg
+imgLarge: Adora/Wide.jpg
+imgDetail1: Adora/Detail1.jpg
+imgDetail2: Adora/Detail2.jpg
+youtubeThumb: Adora/youtubeThumb.jpg
+youtubeUrl: https://youtu.be/uBuVcQ4tGnA
+prints: false
 redbubbleUrl: http://redbubble.com
 society6Url: http://society6.com
 cratedUrl: http://crated.com
 position: 5
 ---
 
-Here is some **data**
-*this is italic*
+*Digital painting created in Photoshop CS5.*
 
-This is a list:
-
-1. something
-1. something else
-
-[This is a link](http://www.darkcoding.net)
-
-#header#
+Portrait of Adora, the center of the [*Grow a Brain blog*](http://growabrain.tumblr.com/). This is one of more 
+than 700 portraits commissioned by her father from artists all over the world. 
+The link above will give you a look at Adora and the wide array of art pieces that
+ she has inspired. The concept of this particular painting was selected from their wish list.

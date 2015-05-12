@@ -1,25 +1,28 @@
 ---
-title: test8
-imgRatio: portrait # portrait | landscape | square
-imgThumb: testThumb.jpg
-imgLarge: test.jpg
-imgDetail1: detail.jpg
-imgDetail2: detail2.jpg
-youtubeUrl: http://youtube.com/
-redbubbleUrl: http://redbubble.com
-society6Url: http://society6.com
-cratedUrl: http://crated.com
+title: Fan Art Fifteenth - Mass Effect
+layout: project
+url: /projects/FanArtFifteenthMassEffect.html
+imgRatio: landscape # portrait | landscape | square
+imgThumb: MassEffect/Thumb.jpg
+imgLarge: MassEffect/Wide.jpg
+imgDetail1: MassEffect/Detail1.jpg
+imgDetail2: MassEffect/Detail2.jpg
+youtubeThumb: MassEffect/youtubeThumb.jpg
+youtubeUrl: https://youtu.be/Jq78qWCMwJY
+prints: false
+redbubbleUrl: http://www.redbubble.com
+society6Url: http://society6.com/
+cratedUrl: https://crated.com/
 position: 8
 ---
 
-Here is some **data**
-*this is italic*
+*Digital painting created in Photoshop CS5.*
 
-This is a list:
+Fan Art Fifteenth piece featuring Garrus of Bioware's game series, "Mass Effect."
+Created early for N7 Day. To get into the spirit, I decided to paint Garrus against
+ the backdrop of a burning Palaven as it appears in Mass Effect 3.
 
-1. something
-1. something else
+ Featured as the “Image of the Day” on ImagineFX’s website in early 2014 as pictured above right.
+ You can find their Facebook post about it [*here*](https://www.facebook.com/imaginefx/photos/a.104969363817.91807.8362308817/10152173187928818/?type=1&relevant_count=1)! 
 
-[This is a link](http://www.darkcoding.net)
-
-#header#
+You can find more of my Fan Art Fifteenth pieces [*here*](http://alyssamay-art.tumblr.com/tagged/fan+art+fifteenth/)!

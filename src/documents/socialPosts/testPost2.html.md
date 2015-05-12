@@ -1,6 +1,6 @@
 ---
 title: test post
-url: http://google.com
-img: testImg.jpg
+url: http://alyssamay-art.tumblr.com/
+img: blogSocial.jpg
 position: 2
 ---

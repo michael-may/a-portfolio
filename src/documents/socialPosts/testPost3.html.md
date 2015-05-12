@@ -1,6 +1,6 @@
 ---
 title: test post
-url: http://google.com
-img: testImg.jpg
+url: http://www.redbubble.com/people/penguinstein/portfolio
+img: storeSocial.jpg
 position: 3
 ---
