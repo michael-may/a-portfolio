@@ -1,7 +1,7 @@
 ---
 title: Web of Fate
 layout: project
-url: /projects/WebOfFate
+url: /projects/WebOfFate.html
 imgRatio: portrait # portrait | landscape | square
 imgThumb: WebOfFate/Thumb.jpg
 imgLarge: WebOfFate/Tall.jpg
