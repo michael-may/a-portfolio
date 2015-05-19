@@ -105,6 +105,14 @@ var CollapsingHeader = function(el, opts) {
 				position : 'fixed',
 				top : 0
 			});
+
+			var max = ((el.height() * 2) - opts.nav.height()) - 1;
+
+			if(pagePos >= max) {
+				pagePos = max;
+				$(window).scrollTop(max);
+			}
+
 			opts.body.css({
 				'-webkit-transform' : 'translate3d(0, ' + ('-' + (pagePos + 1) + 'px') + ', 0)',
 				'-moz-transform' : 'translate3d(0, ' + ('-' + (pagePos + 1) + 'px') + ', 0)',

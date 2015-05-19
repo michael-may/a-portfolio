@@ -1,5 +1,23 @@
+/* latin */
+@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pontano Sans'), local('PontanoSans-Regular'), url(http://fonts.gstatic.com/s/pontanosans/v4/gTHiwyxi6S7iiHpqAoiE3Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Noto Serif Bold Italic'), local('NotoSerif-BoldItalic'), url(http://fonts.gstatic.com/s/notoserif/v4/Wreg0Be4tcFGM2t6VWytvHNuWYKPzoeKl5tYj8yhly0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 * {
-	font-family: georgia;
+	font-family: 'Pontano Sans';
 }
 
 html {
@@ -13,8 +31,24 @@ html, body {
 }
 
 h1, h2, h3 {
-	text-transform: uppercase;
-	font-family: arial;
+	text-transform: lowercase;
+	font-family: 'Noto Serif';
+	font-style: italic;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 30px;
+	margin-top: 0;
+}
+
+p {
+	font-size: 17px;
+	line-height: 23px;
 }
 
 .clearfix {
@@ -45,6 +79,11 @@ h1, h2, h3 {
 			display: table-cell;
 			vertical-align: middle;
 			text-align: center;
+			font-family: 'Playfiar Display';
+			font-style: italic;
+			text-transform: lowercase;
+			font-size: 25px;
+			font-weight: bold;
 		}
 	}
 	&:hover {
@@ -74,8 +113,9 @@ header {
 		-ms-transition: top 500ms;
 		-o-transition: top 500ms;
 		transition: top 500ms;
+		pointer-events: none;
 		img {
-			height: 200px;
+			height: 172px;
 			margin-left: auto;
 			margin-right: auto;
 			display: block;
@@ -151,8 +191,9 @@ header {
 			position: fixed;
 			top: 0;
 			z-index: 50;
+			pointer-events: none;
 			img {
-				height: 200px;
+				height: 172px;
 				margin-left: auto;
 				margin-right: auto;
 				display: block;
@@ -182,6 +223,7 @@ header {
 			position: fixed;
 			top: 0;
 			left: 0;
+			pointer-events: none;
 			//background-image: url(/img/main_bg.jpg);
 			//background-attachment: fixed;
 			//background-size: cover;
@@ -247,6 +289,8 @@ header {
 				font-size: 16px;
 				display: inline-block;
 				vertical-align: top;
+				box-sizing: border-box;
+				padding-right: 35px;
 				.prints {
 					width: 100%;
 					a {
