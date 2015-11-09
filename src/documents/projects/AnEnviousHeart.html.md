@@ -13,7 +13,7 @@ prints: true
 redbubbleUrl: http://www.redbubble.com/people/penguinstein/works/14630975-an-envious-heart
 society6Url: http://society6.com/product/an-envious-heart_print#1=45
 cratedUrl: https://crated.com/art/176350/an-envious-heart-by-alyssamay?product=PO&size=9%7C14
-position: 2
+position: 4
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2.*

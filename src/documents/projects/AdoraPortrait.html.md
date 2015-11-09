@@ -13,7 +13,7 @@ prints: false
 redbubbleUrl: http://redbubble.com
 society6Url: http://society6.com
 cratedUrl: http://crated.com
-position: 5
+position: 6
 ---
 
 *Digital painting created in Photoshop CS5.*
