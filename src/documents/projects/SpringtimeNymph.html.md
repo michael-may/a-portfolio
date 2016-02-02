@@ -2,7 +2,7 @@
 title: Springtime Nymph
 layout: project
 url: /projects/SpringtimeNymph.html
-imgRatio: landscape # portrait | landscape | square
+imgRatio: portrait # portrait | landscape | square
 imgThumb: SpringtimeNymph/Thumb.jpg
 imgLarge: SpringtimeNymph/Square.jpg
 imgDetail1: SpringtimeNymph/Detail1.jpg
