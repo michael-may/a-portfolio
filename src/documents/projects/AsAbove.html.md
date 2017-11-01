@@ -2,7 +2,7 @@
 title: As Above
 layout: project
 url: /projects/AsAbove.html
-imgRatio: Landscape # portrait | landscape | square
+imgRatio: landscape # portrait | landscape | square
 imgThumb: AsAbove/Thumb.jpg
 imgLarge: AsAbove/Wide.jpg
 imgDetail1: AsAbove/Detail1.jpg

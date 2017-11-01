@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=yf2jOTsbkUo
 prints: True
 redbubbleUrl: http://www.redbubble.com/people/penguinstein/works/17189201-cried-wolf
 society6Url: https://society6.com/product/cried-wolf_print#1=45
-position: 7
+position: 8
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2.*

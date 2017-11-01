@@ -2,9 +2,9 @@
 title: Fan Art Fifteenth - Dracula
 layout: project
 url: /projects/FanArtFifteenthDracula.html
-imgRatio: Portrait # portrait | landscape | square
+imgRatio: portrait # portrait | landscape | square
 imgThumb: FanArtFifteenthDracula/Thumb.jpg
-imgLarge: FanArtFifteenthDracula/Wide.jpg
+imgLarge: FanArtFifteenthDracula/Tall.jpg
 imgDetail1: FanArtFifteenthDracula/Detail1.jpg
 imgDetail2: FanArtFifteenthDracula/Detail2.jpg
 youtubeThumb: FanArtFifteenthDracula/youtubeThumb.jpg

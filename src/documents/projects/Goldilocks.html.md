@@ -4,7 +4,7 @@ layout: project
 url: /projects/Goldilocks.html
 imgRatio: portrait # portrait | landscape | square
 imgThumb: Goldilocks/Thumb.jpg
-imgLarge: Goldilocks/Wide.jpg
+imgLarge: Goldilocks/Tall.jpg
 imgDetail1: Goldilocks/Detail1.jpg
 imgDetail2: Goldilocks/Detail2.jpg
 youtubeThumb: Goldilocks/youtubeThumb.jpg
@@ -13,7 +13,7 @@ prints: True
 redbubbleUrl: http://www.redbubble.com/people/penguinstein/works/22602841-goldilocks
 society6Url: https://society6.com/product/goldilocks-b0r_print#s6-4742563p4a1v45
 
-position: 2
+position: 3
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2.*

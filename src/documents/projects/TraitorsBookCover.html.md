@@ -2,7 +2,7 @@
 title: Traitors - Book Cover
 layout: project
 url: /projects/TraitorsBookCover.html
-imgRatio: Landscape # portrait | landscape | square
+imgRatio: landscape # portrait | landscape | square
 imgThumb: TraitorsBookCover/Thumb.jpg
 imgLarge: TraitorsBookCover/Wide.jpg
 imgDetail1: TraitorsBookCover/Detail1.jpg
