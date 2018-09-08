@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=PfOShEAKQE8
 prints: False
 redbubbleUrl: 
 society6Url: 
-position: 2
+position: 5
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2.*
