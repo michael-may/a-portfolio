@@ -138,6 +138,8 @@ header {
 	top: 0;
 	z-index: 200;
 	pointer-events: none;
+	opacity: 0;
+	animation: fadeIn 250ms 750ms ease-in-out forwards;
 	img {
 		width: 60%;
 		height: auto;
@@ -149,13 +151,29 @@ header {
 	}
 }
 
-#main-nav {
+.main-nav {
 	width: 100%;
 	height: 75px;
+	margin-top: -75px;
 	background-color: rgba(82, 134, 147, .9);
 	position: relative;
 	overflow: hidden;
 	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.25);
+	&.hidden {
+		display: none;
+	}
+	&.invisible {
+		opacity: 0;
+	}
+	&.sticky-clone {
+		position: fixed;
+		margin-top: 0;
+		top: 0;
+		z-index: 1;
+		&.stuck {
+			display: block;
+		}
+	}
 	.contact {
 		width: 60px;
 		height: 45px;
@@ -184,7 +202,20 @@ header {
 		position: fixed;
 		top: 0;
 		left: 0;
+		margin-top: 0;
 		z-index: 100;
+		#logo {
+			text-align: center;
+			a {
+				display: inline-block;
+				pointer-events: all;
+				width: 34%;
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
 		#logo-bg {
 			width: 100%;
 			//height: 210px;
@@ -209,8 +240,9 @@ header {
 
 #main {
 	width: 100%;
-	position: static;
+	position: relative;
 	font-size: 0;
+	overflow-x: hidden;
 	&.project {
 		padding-top: 150px;
 	}
@@ -219,8 +251,8 @@ header {
 		padding-top: 150px;
 		.spacer {
 			width: 100%;
-			height: 100%;
-			position: fixed;
+			height: 85%;
+			position: absolute;
 			top: 0;
 			left: 0;
 			pointer-events: none;
@@ -484,5 +516,14 @@ header {
 				}
 			}
 		}
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
