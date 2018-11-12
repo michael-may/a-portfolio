@@ -12,7 +12,6 @@ youtubeUrl: https://www.youtube.com/watch?v=CnTRFSIEKDg
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/collections/914879-nursery
 society6Url: https://society6.com/product/gallant-great-horned-owl_print
-
 position: 3
 ---
 
