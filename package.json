@@ -7,7 +7,7 @@
     "docpad-plugin-handlebars": "2.4.0",
     "docpad-plugin-less": "2.5.1",
     "glob": "7.1.2",
-    "handlebars": "4.0.10",
+    "handlebars": "4.7.7",
     "lodash": "4.17.4",
     "markdown": "0.5.0"
   },
