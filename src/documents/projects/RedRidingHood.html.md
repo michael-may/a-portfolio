@@ -12,7 +12,7 @@ youtubeUrl: https://youtu.be/2jjaOYG0AlQ
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/works/28687575-red-riding-hood?asc=u&p=contrast-tank
 society6Url: https://society6.com/product/red-riding-hood878113_print#s6-7917930p4a1v45
-position: 4
+position: 5
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2 and Krita on a Surface Pro 4.*

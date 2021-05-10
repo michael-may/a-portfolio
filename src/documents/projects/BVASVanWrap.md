@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=42ahabczn_Q
 prints: False
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/works/21878909-bvas-van-paw-print-design-dogs?asc=u&p=scarf
 society6Url: 
-position: 8
+position: 9
 ---
 
 *Digital illustration created in Photoshop CS5 and Illustrator CS5 on a Surface Pro 2.*

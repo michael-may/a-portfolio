@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=5303wo2CyLA
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/works/33218034-sparkling-stars-pegasus-constellation
 society6Url: https://society6.com/product/sparkling-stars-pegasus-constellation_print
-position: 2
+position: 3
 ---
 *Digital painting created in Krita on a Surface Pro 4.*
 

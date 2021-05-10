@@ -13,7 +13,7 @@ prints: True
 redbubbleUrl: http://www.redbubble.com/people/penguinstein/works/22602841-goldilocks
 society6Url: https://society6.com/product/goldilocks-b0r_print#s6-4742563p4a1v45
 
-position: 6
+position: 7
 ---
 
 *Digital painting created in Photoshop CS5 on a Surface Pro 2.*
