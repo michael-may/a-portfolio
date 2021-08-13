@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=CnTRFSIEKDg
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/collections/914879-nursery
 society6Url: https://society6.com/product/gallant-great-horned-owl_print
-position: 4
+position: 5
 ---
 
 *Digital painting created in Krita on a Surface Pro 4.*
