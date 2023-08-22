@@ -1,0 +1,27 @@
+name: Deploy to Github Pages Repository
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "out/**"
+      - ".github/workflows/deploy-pages.yml"
+jobs:
+    deploy-me:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+              env:
+                  ACCESS_TOKEN: '${{ secrets.ACCESS_TOKEN_GITHUB }}'
+            - run: |
+                  git config user.email "michael.may@vmlyrcommerce.com"
+                  git config user.name "Michael May"
+                  git config http.postBuffer 524288000
+                  git config --global credential.helper cache
+                  git clone https://${{secrets.ACCESS_TOKEN}}@github.com:penguinstein/penguinstein.github.io.git pages
+                  cp -rf ./out/* ./pages/
+                  cd pages
+                  git add .
+                  git commit -m "Built latest;"
+                  git push origin master
