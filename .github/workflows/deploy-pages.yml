@@ -13,9 +13,10 @@ jobs:
         steps:
             - uses: actions/checkout@v2
               env:
-                  ACCESS_TOKEN: '${{ secrets.ACCESS_TOKEN_GITHUB }}'
+                  ACCESS_TOKEN_GITHUB: '${{ secrets.ACCESS_TOKEN_GITHUB }}'
+                  EMAIL: '${{ secrets.EMAIL }}'
             - run: |
-                  git config user.email "michael.may@vmlyrcommerce.com"
+                  git config user.email "${{secrets.EMAIL}}"
                   git config user.name "Michael May"
                   git config http.postBuffer 524288000
                   git config --global credential.helper cache
