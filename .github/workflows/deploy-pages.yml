@@ -20,7 +20,7 @@ jobs:
                   git config user.name "Michael May"
                   git config http.postBuffer 524288000
                   git config --global credential.helper cache
-                  git clone https://${{secrets.ACCESS_TOKEN_GITHUB}}@github.com:penguinstein/penguinstein.github.io.git pages
+                  git clone https://${{secrets.ACCESS_TOKEN_GITHUB}}@github.com/penguinstein/penguinstein.github.io.git pages
                   cp -rf ./out/* ./pages/
                   cd pages
                   git add .
