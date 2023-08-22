@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=c263rw96CiQ
 prints: False
 redbubbleUrl: 
 society6Url: 
-position: 1
+position: 2
 ---
 
 *Digital paintings created in Krita and Affinity Designer on a Surface Pro 7.*

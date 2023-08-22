@@ -12,7 +12,7 @@ youtubeUrl: https://www.youtube.com/watch?v=phPrPgK5DYQ
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/works/33734575-demon-in-the-dark
 society6Url: https://society6.com/product/demon-in-the-dark_print
-position: 3
+position: 4
 ---
 
 *Digital painting created in Krita on a Surface Pro 4.* 
