@@ -11,7 +11,7 @@ youtubeThumb: TinyToucanTonsOfFruit/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/plzLgGh6nAM?si=HneZdxLTGajQW3Wg
 prints: True
 redbubbleUrl: https://www.redbubble.com/shop/ap/150183301
-position: 1
+position: 5
 ---
 
 *Digital painting created in Procreate.*

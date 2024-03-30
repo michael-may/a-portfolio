@@ -12,9 +12,9 @@ youtubeUrl: https://www.youtube.com/watch?v=CnTRFSIEKDg
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/collections/914879-nursery
 society6Url: https://society6.com/product/gallant-great-horned-owl_print
-position: 6
+position: 9
 ---
 
-*Digital painting created in Krita on a Surface Pro 4.*
+*Digital painting created in Krita.*
 
 A pair of woodland critters, "Rosy Red Fox" and "Gallant Great Horned Owl," painted as part of my nursery series of children's illustrations.

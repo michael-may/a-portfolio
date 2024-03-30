@@ -12,10 +12,10 @@ youtubeUrl: https://www.youtube.com/watch?v=c263rw96CiQ
 prints: False
 redbubbleUrl: 
 society6Url: 
-position: 2
+position: 7
 ---
 
-*Digital paintings created in Krita and Affinity Designer on a Surface Pro 7.*
+*Digital paintings created in Krita and Affinity Designer.*
 
 A wrap design created for a transport vehicle for Project Freedom Ride, featuring fun portraits of some of their animals along with their young, philanthropic founder, Roland (you might recognize him from the Dodo Kids YouTube channel).
 
