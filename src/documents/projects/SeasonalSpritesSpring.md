@@ -11,7 +11,7 @@ youtubeThumb: SeasonalSpritesSpring/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/0T6YjAkIFG8?si=eX7v8oZpcoQnQaxb
 prints: true
 redbubbleUrl: https://www.redbubble.com/shop/ap/159813774
-position: 1
+position: 2
 ---
 
 *Digital illustration created in Procreate.*
