@@ -13,7 +13,7 @@ prints: false
 redbubbleUrl:
 society6Url: 
 
-position: 5
+position: 6
 ---
 
 *Digital paintings created in Procreate.*
