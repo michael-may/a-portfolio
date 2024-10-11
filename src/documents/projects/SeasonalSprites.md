@@ -11,7 +11,7 @@ youtubeThumb: SeasonalSprites/youtubeThumb.jpg
 youtubeUrl: https://youtube.com/playlist?list=PL-lNlkqqaegbd0HUXFTZkHnErvSXdfUIX&si=3FKyYYytmOB87fXN
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4071969
-position: 1
+position: 2
 ---
 *Digital illustrations created in Procreate.*
 
