@@ -11,7 +11,7 @@ youtubeThumb: GuidebookCover/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/Vv6DzechZE0?si=5Namvt1H6CfkUDHK
 prints: False
 redbubbleUrl:
-position: 2
+position: 3
 ---
 
 *Digital illustration created in Procreate. Design elements created in Affinity Designer.*
