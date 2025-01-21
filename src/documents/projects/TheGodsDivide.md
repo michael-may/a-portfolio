@@ -16,4 +16,4 @@ position: 1
 
 *Digital illustrations created in Procreate and Affinity Designer.* 
 
-A swirling, mysterious cover for M.S. Rowe’s dystopian fantasy novel, “The Gods Divide.” Copies available on [*Amazon*](https://a.co/d/8nhErXm) and [*Bookshop.org*](https://bookshop.org/p/books/the-gods-divide-m-s-rowe/22062284?ean=9781958821060)!
+A swirling, mysterious cover for M.S. Rowe’s dystopian fantasy novel, “The Gods Divide.” Copies available on [*Amazon*](https://a.co/d/8nhErXm) and [*Bookshop.org*](https://bookshop.org/p/books/the-gods-divide-m-s-rowe/22062284?ean=9781958821060) from Pig Pen Publishing!
