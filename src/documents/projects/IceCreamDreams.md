@@ -11,7 +11,7 @@ youtubeThumb: IceCreamDreams/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/vXtwSX8eQo0?si=qcncEO_AJ6cPHtbJ
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4247104
-position: 2
+position: 3
 ---
 *Digital illustrations created in Procreate.*
 

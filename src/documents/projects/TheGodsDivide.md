@@ -11,7 +11,7 @@ youtubeThumb: TheGodsDivide/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/OXBBLW0Y_Rg?si=Uz8c7t-dhly3uI0q
 prints: false
 redbubbleUrl: 
-position: 3
+position: 4
 ---
 
 *Digital illustrations created in Procreate and Affinity Designer.* 
