@@ -11,7 +11,7 @@ youtubeThumb: FloraFungiFriends/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/XylqDo-Wt4U?si=TVI7Yit8H77y1FyF
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4125844&iaCode=all-departments&sortOrder=relevant
-position: 6
+position: 7
 ---
 
 *Digital illustrations created in Procreate.*

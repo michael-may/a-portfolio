@@ -12,7 +12,7 @@ youtubeUrl: https://youtu.be/eQulzx2K2Is?si=d6R5cHztWcmqC0kL
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4342465
 society6Url: 
-position: 2
+position: 3
 ---
 
 *Digital illustrations created in Procreate.*
