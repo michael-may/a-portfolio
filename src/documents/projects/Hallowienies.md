@@ -11,7 +11,7 @@ youtubeThumb: Hallowienies/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/NrEDE_QlmOc?si=MdYNziTXLAkU_QHF
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4368825
-position: 2
+position: 3
 ---
 
 *Digital illustrations created in Procreate.*
