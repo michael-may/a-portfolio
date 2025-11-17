@@ -11,7 +11,7 @@ youtubeThumb: MermaidsInABottle/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/O1ZVO15wEyk?si=aSVLMLRHaWpijcv4
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4385077
-position: 1
+position: 2
 ---
 
 *Digital illustrations created in Procreate.*

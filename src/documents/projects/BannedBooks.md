@@ -11,7 +11,7 @@ youtubeThumb: BannedBooks/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/1DLCdBhDAqg?si=HjLr1ZIeEInWUIKX
 prints: True
 redbubbleUrl: https://www.redbubble.com/shop/ap/174760502 
-position: 2
+position: 3
 ---
 
 *Digital illustration created in Procreate.*
