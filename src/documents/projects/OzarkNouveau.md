@@ -1,7 +1,7 @@
 ---
 title:  Ozark Nouveau
 layout: project
-url: /projects/Metamorfiori
+url: /projects/OzarkNouveau
 imgRatio: landscape # portrait | landscape | square
 imgThumb: OzarkNouveau/Thumb.jpg
 imgLarge: OzarkNouveau/Wide.jpg
