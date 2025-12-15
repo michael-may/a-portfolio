@@ -11,7 +11,7 @@ youtubeThumb: BsBestiary/youtubeThumb.jpg
 youtubeUrl: https://youtu.be/-Z0mIVKS460?si=ROnxCNWxzEImqJzk
 prints: True
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=3987286
-position: 1
+position: 2
 ---
 
 *Digital illustrations created in Procreate.*
