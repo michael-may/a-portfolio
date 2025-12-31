@@ -8,7 +8,7 @@ imgLarge: OzarkNouveau/Wide.jpg
 imgDetail1: OzarkNouveau/Detail1.jpg
 imgDetail2: OzarkNouveau/Detail2.jpg
 youtubeThumb: OzarkNouveau/youtubeThumb.jpg
-youtubeUrl: https://youtu.be/FJpo2_TXtmw?si=Ee4bqIFSEs9nnB5y
+youtubeUrl: https://youtube.com/playlist?list=PL-lNlkqqaegbh441cCFjRDT3kqmDui9m-&si=2GHuB6LPmLVmVrye
 prints: true
 redbubbleUrl: https://www.redbubble.com/people/penguinstein/shop?artistUserName=penguinstein&asc=u&collections=4418064
 position: 1
